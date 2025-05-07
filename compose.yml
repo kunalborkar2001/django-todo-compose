@@ -1,0 +1,9 @@
+
+version : '3.3'
+
+services:  
+  kunal:
+    build: 
+      context: /workspaces/Demo-Jenkins/projects/django-todo
+    ports:
+    - 8001:8001
